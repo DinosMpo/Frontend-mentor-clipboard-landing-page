@@ -1,0 +1,80 @@
+@media only screen and (max-width: 500px) {
+	#first-section-description{
+		font-size: 20px;
+	}
+
+	#first-section {
+		background-image: url('../public/images/bg-header-mobile.png');
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#second-section-title {
+  		font-size: 35px;
+	}
+
+	#second-section-description{
+		font-size: 20px;
+		margin-bottom: 75px;
+	}
+
+	#second-section-image {
+		left: 0px;
+		width: 100%;
+		min-width: 100%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#third-section {
+		margin-top: 100px;
+		padding: 10px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#fourth-section {
+		margin-top: 25px;
+		padding: 10px;
+	}
+
+	#fourth-section-title {
+		font-size: 30px;
+		margin-bottom: 13px;
+	}
+
+	#fourth-section-items {
+		flex-direction: column;
+		row-gap: 55px;
+	}
+}
+
+
+@media only screen and (max-width: 500px) {
+	#companies-section {
+		flex-direction: column;
+		row-gap: 50px;
+		margin-bottom: 65px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#download-ios, #download-mac  {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#fifth-section {
+		padding: 15px;
+	}
+
+	#fifth-section-title {
+		font-size: 30px;
+		margin-bottom: 0px;
+	}
+
+	#fifth-section-description {
+		margin-top: 16px;
+	}
+}
