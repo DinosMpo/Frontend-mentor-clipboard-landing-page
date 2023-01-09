@@ -1,0 +1,13 @@
+#companies-section {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: wrap;
+	flex-direction: row;
+	margin-top: 148px;
+	margin-bottom: 100px;
+}
+
+#companies-section>div {
+	min-height: 60px;
+}
