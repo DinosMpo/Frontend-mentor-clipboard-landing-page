@@ -1,0 +1,18 @@
+#third-section-title {
+	color: hsl(210, 10%, 33%);
+	font-weight: 600;
+  	font-size: 35px;
+	margin-top: 56px;
+}
+
+#third-section-description {
+	color: hsl(201, 11%, 66%);
+	margin: 0px auto;
+	margin-bottom: 52px;
+	max-width: 690px;
+}
+
+#third-section-image img {
+	width: 100%;
+	height: auto;
+}
