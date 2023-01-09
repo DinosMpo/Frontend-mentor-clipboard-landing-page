@@ -1,0 +1,39 @@
+#fourth-section-title {
+	color: hsl(210, 10%, 33%);
+	font-weight: 600;
+  	font-size: 40px;
+	margin-top: 56px;
+}
+
+#fourth-section-description {
+	color: hsl(201, 11%, 66%);
+	margin: 0px auto;
+	margin-bottom: 85px;
+	max-width: 690px;
+}
+
+#fourth-section-items {
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+}
+
+.fourth-section-item {
+	width: 100%;
+	max-width: 376px;
+}
+
+.fourth-section-item-image {
+	height: 50px;
+}
+
+.fourth-section-item-title {
+	font-size: 25px;
+	font-weight: bold;
+	color: hsl(210, 10%, 33%);
+}
+
+.fourth-section-item-info {
+	color: hsl(201, 11%, 66%);
+	line-height: 33px;
+}
