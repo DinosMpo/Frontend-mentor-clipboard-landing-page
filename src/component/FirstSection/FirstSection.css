@@ -1,0 +1,23 @@
+#first-section {
+	width: 100%;
+	background-image: url('../../../public/images/bg-header-desktop.png');
+	background-repeat: round no-repeat;
+	margin-bottom: 117px;
+}
+
+#first-section-logo {
+	margin-top: 130px;
+}
+
+#first-section-title {
+	color: hsl(210, 10%, 33%);
+	font-weight: 600;
+  	font-size: 35px;
+	margin-top: 56px;
+}
+
+#first-section-description{
+	color: hsl(201, 11%, 66%);
+	margin: 0px auto;
+	margin-bottom: 52px;
+}
