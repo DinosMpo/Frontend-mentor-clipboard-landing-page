@@ -1,21 +1,22 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import './Mobile.css';
+import FirstSection from './component/FirstSection/FirstSection';
+import SecondSection from './component/SecondSection/SecondSection';
+import ThirdSection from './component/ThirdSection/ThirdSection';
+import FourthSection from './component/FourthSection/FourthSection';
+import FifthSection from './component/FifthSection/FifthSection';
+import Footer from './component/Footer/Footer';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+export default function App() {
+  return (
+    <main className="App">
+      <FirstSection/>
+      <SecondSection/>
+      <ThirdSection/>
+      <FourthSection/>
+      <FifthSection/>
+      <Footer/>
+    </main>
+  )
 }
-
-export default App;
