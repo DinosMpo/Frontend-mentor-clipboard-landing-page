@@ -1,0 +1,33 @@
+#download-container {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	gap: 15px;
+}
+
+#download-ios, #download-mac  {
+	display: inline-block;
+	width: 195px;
+	padding: 17px;
+	border-radius: 30px;
+	color: white;
+	cursor: pointer;
+}
+
+#download-ios {
+	background-color: hsl(171, 66%, 44%);
+	box-shadow: 0px 5px 15px hsl(171, 66%, 44%);
+}
+
+#download-ios:hover {
+	background-color: hsl(171, 66%, 44%, 0.7);
+}
+
+#download-mac {
+	background-color: hsl(233, 100%, 69%);
+	box-shadow: 0px 5px 15px hsl(233, 100%, 69%);
+}
+
+#download-mac:hover {
+	background-color: hsl(233, 100%, 69%, 0.7);
+}
